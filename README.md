@@ -30,49 +30,6 @@ flutter pub get
 
 ---
 
-### Usage
-
-#### Initialize the Framework
-
-```dart
-import 'package:zigbee_2_mqtt_flutter/zigbee_2_mqtt_flutter.dart';
-
-void main() {
-  final zigbeeController = Zigbee2MqttController(
-    mqttBroker: 'mqtt://your-broker-address',
-    username: 'your-username',
-    password: 'your-password',
-  );
-
-  zigbeeController.initialize();
-  runApp(MyApp());
-}
-```
-
-#### Control a Device
-
-```dart
-zigbeeController.publish(
-  topic: 'zigbee2mqtt/device-id/set',
-  payload: {
-    "state": "ON",
-  },
-);
-```
-
-#### Listen to Device Updates
-
-```dart
-zigbeeController.subscribe(
-  topic: 'zigbee2mqtt/device-id',
-  onMessage: (message) {
-    print('Device state: ${message}');
-  },
-);
-```
-
----
-
 ## Development
 
 ### Commit Standards
@@ -115,7 +72,7 @@ We welcome contributions! To get started:
 ---
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 ---
 
