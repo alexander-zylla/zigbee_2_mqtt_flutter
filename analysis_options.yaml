@@ -1,0 +1,19 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - avoid_print
+    - camel_case_types
+    - constant_identifier_names
+    - empty_constructor_bodies
+    - library_prefixes
+    - non_constant_identifier_names
+    - prefer_const_constructors
+    - prefer_const_literals_to_create_immutables
+    - prefer_final_fields
+    - prefer_typing_uninitialized_variables
+    - unnecessary_brace_in_string_interps
+    - unnecessary_const
+    - unnecessary_new
+    - unnecessary_this
+    - use_rethrow_when_possible
