@@ -1,6 +1,6 @@
 name: zigbee_2_mqtt_flutter
 description: "A Flutter framework for real-time Zigbee2MQTT integration."
-version: 0.0.1
+version: 1.0.0
 homepage: https://azylla.dev/
 
 environment:
