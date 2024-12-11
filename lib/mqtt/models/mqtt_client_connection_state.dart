@@ -1,0 +1,4 @@
+enum MqttClientConnectionState {
+  connected,
+  disconnected,
+}
